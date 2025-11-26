@@ -136,7 +136,7 @@ public fun listing_price(list_hero: &ListHero): u64 {
     list_hero.price
 }
 
-// ========= TEST ONLY FUNCTIONS ==========
+// ========== TEST ONLY FUNCTIONS ==========
 
 #[test_only]
 public fun test_init(ctx: &mut TxContext) {
