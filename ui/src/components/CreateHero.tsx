@@ -66,7 +66,7 @@ export function CreateHero({ refreshKey, setRefreshKey }: RefreshProps) {
           <Flex direction="column" gap="2">
             <Text size="3" weight="medium">Hero Name</Text>
             <TextField.Root
-              placeholder="Enter hero name (e.g., Fire Dragon)"
+              placeholder="Kahraman adini girin (Örneğin: Alev Ejderi)"
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
